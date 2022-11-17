@@ -62,6 +62,22 @@ p {
 	margin-top: 100px;
 }
 
+table {
+	margin: 20px 0 10px;
+}
+
+thead {
+	background: #FFFF00;
+	left: 100px;
+}
+
+th {
+	border: 1px solid #000000;
+	padding: 10px 90px;
+	position: relative;
+	left: -400px;
+}
+
 .modais {
 	width: 940px;
 	margin: 0 auto;
@@ -79,6 +95,8 @@ p {
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
+	position: relative;
+	left: -400px;
 }
 
 .modais li:hover {
