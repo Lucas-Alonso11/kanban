@@ -139,3 +139,39 @@ p {
 .titulo {
 	background: #ffd700;
 }
+
+.Entregue {
+	width: 940px;
+	margin: -31.8% 800px;
+	padding: 50px 10px;
+}
+
+.Entregue li {
+	display: table;
+	text-align: center;
+	height: 50px;
+	vertical-align: top;
+	margin: 10px 0;
+	padding: 0 5px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.Entregue li:hover {
+	border-color: #ffd700;
+
+}
+
+.Entregue li:active {
+	border-color: #00ff7f;
+}
+
+.Entregue h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.titulo {
+	background: #ffd700;
+}
