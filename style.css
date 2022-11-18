@@ -73,9 +73,24 @@ p {
 	text-align: center;
 	height: 50px;
 	vertical-align: top;
+	margin: 10px 0;
+	padding: 0 5px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
 
 .liberado h2 {
 	font-size: 20px;
-	font-weight: bolder;
+	font-weight: bold;
 }
+
+.conhecimento-embarque {
+	font-size: 17px;
+}
+
+.destino {
+	font-size: 19px;
+	font-weight: bold;
+}
+
