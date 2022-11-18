@@ -3,7 +3,7 @@ body {
 }
 
 header {
-	background: #008080;
+	background: #000000;
 	padding: 20px 0;
 	}
 
@@ -138,6 +138,7 @@ p {
 
 .titulo-kanban {
 	background: #ffd700;
+	width: 21.5%;
 }
 
 .Entregue {
