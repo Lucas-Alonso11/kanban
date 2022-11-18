@@ -7,14 +7,6 @@ header {
 	padding: 20px 0;
 	}
 
-.logo {
-    max-width:100px;
-    max-height:75px;
-    width: auto;
-    height: auto;
-	right: 0;
-}
-
 nav {
 	position: absolute;
 	top: 10px;
@@ -52,6 +44,7 @@ main {
 	width: 500px;
 	float: left;
 	margin: 0 20px 20px;
+	filter: drop-shadow(2px 2px 2px #222);
 }
 
 .titulo {
