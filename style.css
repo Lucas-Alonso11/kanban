@@ -15,7 +15,7 @@ nav {
 
 nav li {
 	display: inline;
-	margin: 0 0 0 15px;
+	margin: 0 10px 0 15px;
 }
 
 nav a {
@@ -62,127 +62,20 @@ p {
 	margin-top: 100px;
 }
 
-table {
-	margin: 20px 0 10px;
-}
-
-thead {
-	background: #FFFF00;
-	left: 100px;
-}
-
-th.embarcando {
-	border: 1px solid #000000;
-	padding: 10px 90px;
-	position: relative;
-	left: -400px;
-}
-
-th.embarcado {
-	border: 1px solid #000000;
-	padding: 10px 90px;
-	position: relative;
-	left: -100px;
-	top: -800px
-}
-
-.modais-embarcando {
+.liberado {
 	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
-
+	margin: 0 10px;
+	padding: 50px 10px;
 }
 
-.modais-embarcando li {
-	display:  inline-block;
-	text-align:  center;
-	width: 30%;
+.liberado li {
+	display: table;
+	text-align: center;
+	height: 50px;
 	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 20px 20px;
-	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
-	position: relative;
-	left: -400px;
 }
 
-.modais-embarcando li:hover {
-	border-color: #C78C19;
-}
-
-.modais-embarcando li:active {
-	border-color: #00ff7f;
-}
-
-.modais-embarcando li:hover h2 {
-	font-size: 34px;
-
-}
-
-.modais-embarcando h2 {
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.conhecimento-embarque {
-	font-size: 18px;
-}
-
-.destino {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
-
-}
-
-.modais-embarcando {
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
-
-}
-
-.modais-embarcado li {
-	display:  inline-block;
-	text-align:  center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 20px 20px;
-	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
-	position: relative;
-	left: -100px;
-	top: -925px;
-}
-
-.modais-embarcado li:hover {
-	border-color: #C78C19;
-}
-
-.modais-embarcado li:active {
-	border-color: #00ff7f;
-}
-
-.modais-embarcado li:hover h2 {
-	font-size: 34px;
-
-}
-
-.modais-embarcado h2 {
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.conhecimento-embarque {
-	font-size: 18px;
-}
-
-.destino {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
-
+.liberado h2 {
+	font-size: 20px;
+	font-weight: bolder;
 }
