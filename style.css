@@ -107,3 +107,39 @@ p {
 	font-size: 19px;
 	font-weight: bold;
 }
+
+.andamento {
+	width: 940px;
+	margin: -31.8% 400px;
+	padding: 50px 10px;
+}
+
+.andamento li {
+	display: table;
+	text-align: center;
+	height: 50px;
+	vertical-align: top;
+	margin: 10px 0;
+	padding: 0 5px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.andamento li:hover {
+	border-color: #ffd700;
+
+}
+
+.andamento li:active {
+	border-color: #00ff7f;
+}
+
+.andamento li:hover h2 {
+	font-size: 25px;
+}
+
+.andamento h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
