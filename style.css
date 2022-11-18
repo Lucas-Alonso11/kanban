@@ -28,7 +28,8 @@ nav a {
 
 nav a:hover {
 	color: #00ff7f;
-	text-decoration: underline;
+	text-decoration: none;
+	
 }
 
 main {
@@ -80,6 +81,19 @@ p {
 	border-radius: 10px;
 }
 
+.liberado li:hover {
+	border-color: #ffd700;
+
+}
+
+.liberado li:active {
+	border-color: #00ff7f;
+}
+
+.liberado li:hover h2 {
+	font-size: 25px;
+}
+
 .liberado h2 {
 	font-size: 20px;
 	font-weight: bold;
@@ -93,4 +107,3 @@ p {
 	font-size: 19px;
 	font-weight: bold;
 }
-
